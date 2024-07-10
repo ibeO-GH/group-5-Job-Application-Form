@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Application Page</title>
+
+</head>
+
+<body>
+    <div class="page_container">
+        <h1>Job Application Form</h1>
+        <hr>
+
+        <p>Thank you for your interest in working with us. Please check below for available job opportunities that meet
+            your criteria and send
+            your application by filling out the Job Application Form.</p>
+
+        <form class="page_form" action="">
+            <label for="name">Name</label>
+            <div class="name_div">
+                <input type="text" name="firstName" id="firstName" placeholder="First">
+                <input type="text" name="lastName" id="lastName" placeholder="Last">
+            </div>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="jon.dow@gmail.com">
+
+            <div class="role_container">
+                <div class="role_container-one">
+                    <label for="ApplyRoles">What Position are you applying for?</label>
+                    <select name="" id="">
+                        <option value="front-end">Front End Engineering</option>
+                        <option value="back-end">Back End Engineering</option>
+                        <option value="dev-ops">Dev Ops</option>
+                        <option value="cloud-engineering">Cloud Engineering</option>
+                        <option value="designer">UI/UX DESIGNER</option>
+                    </select>
+                </div>
+                <div class="role_container-two">
+                    <label for="date">Available date</label>
+                    <input type="date" name="date" id="date">
+                </div>
+            </div>
+
+            <label for="status">What is your current employee status</label>
+            <div class="status_radio">
+                <span>
+                    <input type="radio" name="employed" id="employed">
+                    <label for="employed">Employed</label>
+                </span>
+                <span>
+                    <input type="radio" name="selfEmployed" id="selfEmployed">
+                    <label for="selfEmployed">Self Employed</label>
+                </span>
+                <span>
+                    <input type="radio" name="unemployed" id="unemployed">
+                    <label for="unemployed">Unemployed</label>
+                </span>
+                <span>
+                    <input type="radio" name="student" id="student">
+                    <label for="student">Student</label>
+                </span>
+            </div>
+            <div class="role_container">
+                <div class="role_container-one">
+
+                    <label for="link">Please provide your resume link</label>
+                    <input type="url" name="" id="">
+                </div>
+                <div class="role_container-two">
+
+                    <label for="resume">Please upload your resume</label>
+                    <input type="file" name="" id="">
+                </div>
+            </div>
+
+            <label for="reference">Do you have references? (Optional)</label>
+            <div class="ref_div">
+                <input type="text">
+                <input type="text">
+            </div>
+
+            <label for="referenceMail">Reference email</label>
+            <input type="email" name="" id="">
+
+            <span class="btn">
+                <button class="btn_one" type="reset">Reset</button>
+                <button class="btn_two" type="button">Apply</button>
+            </span>
+
+        </form>
+    </div>
+</body>
+
+</html>
