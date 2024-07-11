@@ -100,6 +100,25 @@ input:focus {
   padding: 10px 0;
 }
 
+.employ_history {
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 30px auto auto auto;
+}
+
+.grid-item {
+  text-transform: capitalize;
+  padding: 5px;
+}
+
+.grid-item input {
+  width: 80%;
+}
+
 .role_container {
   display: flex;
   padding: 10px 0;
