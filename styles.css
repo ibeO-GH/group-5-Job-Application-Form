@@ -153,3 +153,9 @@ input:focus {
   background-color: #3b3a3a;
   border-color: #3b3a3a;
 }
+
+@media screen and (max-width: 500px) {
+  .page_container {
+    width: 90%;
+  }
+}
