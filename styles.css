@@ -159,6 +159,6 @@ input:focus {
     width: 90%;
   }
 }
-.give{
-  background-color:rgb(103, 38, 38);
+.land a{
+  text-decoration: none;
 }

@@ -12,6 +12,22 @@ document.write (`Hello, We have received your details and we can see that your n
     identify as ${userGender} and you are ${userAge} years old ,and you are currently applying for 
     the position of ${userPosition},we also took note that you are have provided your resume link and submitted your resume.
     Click on okay if all these details are correct so you could progress to our website .`);
-     alert("Application received");                          
-   
-   
+     alert("Application received");  
+
+     document.getElementById("land").addEventListener("click",function(){
+        window.location.href = "page.html"
+     })
+     const login = document.querySelector(".land");
+     login.addEventListener("click", function(){
+        functiongetUserInput()
+            returnprompt(message)
+    })
+    function authenticate (username,password){
+    if(username === "funmilola@gmail.com" && password === 987650){
+     console.log("welcome!");
+    }else {
+    console.log("username and password not correct")
+    }
+    alert(`re-enter username & password`);
+    }
+    
