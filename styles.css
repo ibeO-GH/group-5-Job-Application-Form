@@ -181,3 +181,6 @@ input:focus {
     width: 90%;
   }
 }
+.land a{
+  text-decoration: none;
+}
