@@ -21,3 +21,26 @@ bgColor.addEventListener("click", function () {
     bgColor.style.color = "#000";
   }
 });
+
+// script.js
+
+document.addEventListener("DOMContentLoaded", function () {
+  const loginForm = document.getElementById("loginForm");
+
+  loginForm.addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Get username and password values
+    const username = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    // Perform basic client-side validation (You should implement server-side validation too)
+    if (username === "funmilola@gmail.com" && password === "987650") {
+      // Redirect to page.html upon successful login
+      window.location.href = "./page.html";
+    } else {
+      // Display error message for incorrect credentials
+      alert("Incorrect username or password. Please try again.");
+    }
+  });
+});

@@ -1,89 +1,35 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Group 5 | VEPHLA TASK</title>
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <div>
-      <button class="bg-color">Change Background Color!</button>
-    </div>
-    <div class="main_container">
-      <h1 class="landing_heading">Login</h1>
-      <form class="landing_form">
-        <label for="Username">Username</label>
+<body>
+  <div>
+    <button class="bg-color">Change Background Color!</button>
+  </div>
+  <div class="main_container">
+    <h1 class="landing_heading">Login</h1>
+    <form class="landing_form" id="loginForm">
+      <label for="username">Username</label>
+      <input type="email" name="username" id="username" placeholder="Enter email" required />
 
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="Password" required />
 
-            <input type="email" name="username" id="username" placeholder="Enter email" required/>
+      <div class="landing_btn">
+        <a href="#">Not a user? Register.</a>
+        <button type="submit">Login</button>
+      </div>
+    </form>
+  </div>
 
-        <input
-          type="email"
-          name="username"
-          id="username"
-          placeholder="Enter email"
-        />
-
-
-        <label for="Password">Password</label>
-
-        <input
-          type="password"
-          name="password"
-          id="password"
-          placeholder="Password"
-        />
-
-        <div class="landing_btn">
-          <a href="#">Not a user? Register.</a>
-          <button type="button">Login</button>
-        </div>
-      </form>
-    </div>
-
-
-    <script>
-      document.querySelector("button");
-      reset_button.js;
-
-
-            <input type="password" name="password" id="password" placeholder="Password" required/>
-
-            <div class="landing_btn">
-                <a href="#">Not a user? Register.</a>
-                <button id="land">Login</button>
-                </div>
-
-
-            <div class="landing_btn">
-                <a href="#">Not a user? Register.</a>
-                <button type="button" id="login__button">Login</button>
-            </div>
-
-        </form>
-    </div>
-    <script src="apps.js"></script>
-
-
+  <script src="script.js"></script>
 </body>
 
-</htm
-
-    <script>
-        document.getElementById('login__button').addEventListener('click', function () {
-            // redirect to app page
-            window.location.href = './page.html'
-        })
-        document.querySelector('button')
-
-    <script src="./script.js">
-      document.querySelector("button");
-
-
-    </script>
-  </body>
 </html>
-
