@@ -22,12 +22,16 @@
 
             <div class="landing_btn">
                 <a href="#">Not a user? Register.</a>
-                <button type="button">Login</button>
+                <button type="button" id="loginButton">Login</button>
             </div>
         </form>
     </div>
 
     <script>
+        document.getElementById('loginButton').addEventListener('click', function () {
+            // redirect to gome page
+            window.location.href = 'page.html'
+        })
         document.querySelector('button')
     </script>
 </body>
