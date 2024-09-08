@@ -1,3 +1,4 @@
+// Js code
 const bgColor = document.querySelector(".bg-color");
 bgColor.style.color = "#92EDE8";
 bgColor.style.backgroundColor = "#000";
