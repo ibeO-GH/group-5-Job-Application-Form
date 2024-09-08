@@ -15,6 +15,8 @@ It is one of the many group project we did in the course of our learning.
 
 \*Implement view for mobile screens
 
+## GitHub Pages - https://ibeo-gh.github.io/group-5-Job-Application-Form/
+
 ## Screenshot of how it looks
 
 <img src="/screenshots/screenshot1.png" alt="image" />
